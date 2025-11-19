@@ -382,16 +382,16 @@ For a 3D point **P**<sub>lidar</sub> in LiDAR frame, projection to pixel **p** i
 
 **1. Transform to camera frame:**
 
-```
-P_cam = R × P_lidar + t
-```
+   ```
+   P_cam = R × P_lidar + t
+   ```
 
 **2. Project to image plane:**
 
-```
-p_homogeneous = K × P_cam
-p = [p_x / p_z, p_y / p_z]
-```
+   ```
+   p_homogeneous = K × P_cam
+   p = [p_x / p_z, p_y / p_z]
+   ```
 
 Where:
 - **K** - 3×3 camera intrinsic matrix (focal length, principal point)
@@ -581,7 +581,7 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 ### Development Setup
 
 ```bash
-git clone https://github.com/yourusername/camera-lidar-calibration.git
+git clone 
 cd camera-lidar-calibration
 python -m venv venv
 source venv/bin/activate
@@ -620,6 +620,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Made with ❤️ for the robotics and computer vision community
 
-[Report Bug](https://github.com/yourusername/camera-lidar-calibration/issues) · [Request Feature](https://github.com/yourusername/camera-lidar-calibration/issues)
 
 </div>
