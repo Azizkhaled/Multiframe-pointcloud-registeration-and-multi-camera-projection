@@ -1,4 +1,5 @@
-# Camera-LiDAR Calibration & Point Cloud Colorization Pipeline
+# Multiframe-pointcloud-registeration-and-multi-camera-projection 
+Camera-LiDAR Calibration & Point Cloud Colorization Pipeline
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -78,7 +79,7 @@ A complete pipeline for calibrating cameras to LiDAR sensors and generating RGB-
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/camera-lidar-calibration.git
+git clone https://github.com/Azizkhaled/Multiframe-pointcloud-registeration-and-multi-camera-projection.git
 cd camera-lidar-calibration
 
 # Create virtual environment (recommended)
@@ -491,9 +492,9 @@ If you use this pipeline in your research, please cite:
 ```bibtex
 @software{camera_lidar_calibration,
   author = {Your Name},
-  title = {Camera-LiDAR Calibration and Point Cloud Colorization Pipeline},
+  title = {Multiframe-pointcloud-registeration-and-multi-camera-projection},
   year = {2025},
-  url = {https://github.com/yourusername/camera-lidar-calibration}
+  url = {https://github.com/Azizkhaled/Multiframe-pointcloud-registeration-and-multi-camera-projection}
 }
 ```
 
