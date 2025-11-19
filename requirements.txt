@@ -1,0 +1,17 @@
+# Camera-LiDAR Calibration and Point Cloud Colorization Pipeline
+# Requirements file for pip installation
+
+# Core dependencies
+numpy>=1.21.0
+opencv-python>=4.5.0
+open3d>=0.17.0
+scipy>=1.7.0
+tqdm>=4.62.0
+imageio>=2.9.0
+
+# LiDAR odometry
+kiss-icp>=0.2.0
+
+# Optional: For better GIF compression
+imageio-ffmpeg>=0.4.5
+
