@@ -491,7 +491,7 @@ If you use this pipeline in your research, please cite:
 
 ```bibtex
 @software{camera_lidar_calibration,
-  author = {Your Name},
+  author = {Aziz Al-Najjar},
   title = {Multiframe-pointcloud-registeration-and-multi-camera-projection},
   year = {2025},
   url = {https://github.com/Azizkhaled/Multiframe-pointcloud-registeration-and-multi-camera-projection}
@@ -575,19 +575,6 @@ kiss-icp>=0.2.0        # LiDAR odometry
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-### Development Setup
-
-```bash
-git clone 
-cd camera-lidar-calibration
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
 
 ### Areas for Contribution
 
